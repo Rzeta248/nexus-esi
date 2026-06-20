@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getScenarios } from '../data/scenarios';
-import { saveDecisionMetric } from '../lib/firebase';
+import { saveDecisionMetric } from '../lib/supabase';
 import { ChevronRight, RefreshCcw, Home as HomeIcon, User } from 'lucide-react';
 
 export default function Game() {
